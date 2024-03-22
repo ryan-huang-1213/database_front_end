@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>神魔主動技搜尋器</title>
+<link rel="stylesheet" href="style.css"> <!-- Link to external CSS file -->
+</head>
+<body>
+
+<div class="header">
+  <img src="images/ourlogo.jpg" alt="Logo" id="logo">
+  <h1>神魔技能搜尋器</h1>
+</div>
+
+<div class="search-bar">
+  <input type="text" id="searchInput" placeholder="Enter cardID or skill">
+  <button onclick="search()">Search</button>
+  <button onclick="OR()">OR</button>
+  <button onclick="AND()">AND</button>
+</div>
+<p id="searchCondition">Current Search Condition: AND</p> <!-- Line to show current search condition -->
+
+<div class="options">
+  <label><input type="checkbox" id="option1"> 反首消浮石盾</label>
+
+  <label><input type="checkbox" id="option2"> 拼圖盾</label>
+  <label><input type="checkbox" id="option3"> 五屬盾</label>
+  <label><input type="checkbox" id="option4"> 首消指定粒數盾</label>
+  <label><input type="checkbox" id="option5"> 十字盾</label>
+  <label><input type="checkbox" id="option6"> 全版消除盾</label>
+  <label><input type="checkbox" id="option7"> 隨便盾</label>
+</div>
+
+<div class="footer">
+  <p>Developed by Buffett, Panda, IFIF, 信義區富少</p>
+  <p><a href="https://tos.fandom.com/zh/wiki/%E4%B8%BB%E5%8B%95%E6%8A%80%E5%88%97%E8%A1%A8">Resources</a> | <a href="https://github.com/Buffett111">GitHub</a></p>
+</div>
+<script src="script.js"></script>
+
+</body>
+</html>
