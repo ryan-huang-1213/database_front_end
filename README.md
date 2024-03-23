@@ -1,5 +1,5 @@
-tosDatabase
+ToS Database
 card search for ToS
 
 use page
-english 中文
+English 中文
