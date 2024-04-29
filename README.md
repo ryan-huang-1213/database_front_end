@@ -1,6 +1,8 @@
 ### ToS Database
 card search for ToS
 
+### 使用說明 ( ? )
+
 ### use page
 English 中文
 
